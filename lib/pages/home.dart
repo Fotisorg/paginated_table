@@ -3,15 +3,15 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:paginated_data_table_example/pages/colored_widget.dart';
-// import 'package:paginated_data_table_example/pages/data_table.dart';
-// import 'package:paginated_data_table_example/pages/socket.dart';
-// import 'package:paginated_data_table_example/pages/stream_test.dart';
-// import 'package:paginated_data_table_example/services/api.dart';
-// import 'package:paginated_data_table_example/state%20management/counter/counter_provider.dart';
-// import 'package:paginated_data_table_example/state%20management/counter/counter_status.dart';
-// import 'package:paginated_data_table_example/styles/colors.dart';
-// import 'package:paginated_data_table_example/styles/textstyles.dart';
-// import 'package:provider/provider.dart';
+import 'package:paginated_data_table_example/pages/data_table.dart';
+import 'package:paginated_data_table_example/pages/socket.dart';
+import 'package:paginated_data_table_example/pages/stream_test.dart';
+import 'package:paginated_data_table_example/services/api.dart';
+import 'package:paginated_data_table_example/state%20management/counter/counter_provider.dart';
+import 'package:paginated_data_table_example/state%20management/counter/counter_status.dart';
+import 'package:paginated_data_table_example/styles/colors.dart';
+import 'package:paginated_data_table_example/styles/textstyles.dart';
+import 'package:provider/provider.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
